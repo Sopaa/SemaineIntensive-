@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "goldoni";
+  src: url(../fonts/Goldoni.otf);
+}
+
+@font-face {
+  font-family: "helveticaneue";
+  src: url(../fonts/helveticaNeue.ttc);
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Thin.ttf);
+}
+
+body {
+  background-image: url(../img/redhairedguy.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 50px;
+  top: 0;
+  width: 100%;
+}
+
+.menuItem {
+  font-family: "goldoni";
+  font-size: 30px;
+  margin: 0px 100px 0px 100px;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 0%;
+  position: relative;
+
+}
+
+.menuItem:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 1px;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 50%;
+
+  position: absolute;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.menuItem:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.spacerLarge {
+  margin-top: 400px;
+  margin-left: 33%;
+  margin-right: 33%;
+  height: 1px;
+  margin-bottom: 30px;
+  background-color: #fff;
+}
+
+.petit {
+  width: 273px;
+  height: auto;
+  margin-bottom: -50px;
+}
+
+.title {
+  text-align: center;
+}
+
+.titleText {
+  font-size: 64px;
+  font-family: "goldoni";
+  color: #fff;
+}
+
+.titleWhite {
+  color: #000;
+}
+
+.spacerSmall {
+  height: 1px;
+  background-color: #fff;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.devise {
+  font-family: "roboto";
+  font-size: 30px;
+  margin-top: 30px;
+  color: white;
+}
+
+.arrow {
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+
+.backgndArt {
+  background-color: #111111;
+  opacity: 0.99;
+  height: 100%
+}
+
+.spacerProject {
+  height: 1px;
+  width: 100px;
+  background-color: #ffffff;
+  text-align: center;
+  margin-left: 47.5%;
+  margin-bottom: 20px;
+}
+
+.tendance {
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  font-size: 36px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.projectTitle {
+  text-align: center;
+  font-family: "goldoni";
+  font-size: 55px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* FLEXBOX */
+
+.articleContainer {
+  padding: 57px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 200px;
+  padding-right: 200px;
+  text-align: center;
+}
+
+.articleItem {
+  width: auto;
+  filter: grayscale(100%);
+}
+
+.articleItem:hover {
+  transition: 1s;
+  filter: grayscale(0%);
+}
+
+.imgSize {
+  height: 600px;
+  width: 410px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.FashionIn {
+  font-size: 48px;
+  font-family: Goldoni;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+.location {
+  font-size: 48px;
+  font-family: Goldoni;
+  text-align: center;
+  background: white;
+  color: #111111;
+  width: 223px;
+  margin: auto;
+  letter-spacing: -5px;
+  margin-bottom: 40px;
+  border-radius: 3px;
+}
+
+.buttonBorder{
+  text-align: center;
+  border: 0.8px solid #979797;
+  border-radius: 10px;
+  position: relative;
+  margin-left: 41%;
+  margin-right: 41%;
+  margin-bottom: 100px;
+}
+
+.button{
+  font-family: "roboto", sans-serif;
+  color: #FFFFFF;
+  font-size: 36px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.participation{
+  background-image: url();
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.spacerParticipation{
+
+}
+.participationTitle{
+  font-family: "roboto", sans-serif;
+  font-size: 36px;
+  color: #FFFFFF;
+  margin-top:
+
+}
