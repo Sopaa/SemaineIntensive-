@@ -154,11 +154,11 @@ body {
 
 .articleItem {
   width: auto;
+  transition: 1s;
   filter: grayscale(100%);
 }
 
 .articleItem:hover {
-  transition: 1s;
   filter: grayscale(0%);
 }
 
@@ -199,9 +199,12 @@ body {
   margin-left: 41%;
   margin-right: 41%;
   margin-bottom: 100px;
+  transition: 0.7s;
 }
-.buttonBorder:hover{
-border: 0.8px solid crimson;}
+
+.buttonBorder:hover {
+  border: 0.8px solid crimson;
+}
 
 .button {
   font-family: "roboto", sans-serif;
@@ -243,16 +246,18 @@ border: 0.8px solid crimson;}
   position: relative;
   margin-left: 41%;
   margin-right: 41%;
+  transition: 0.7s;
 }
-.buttonBorder1:hover{
-border: 0.8px solid crimson;}
+
+.buttonBorder1:hover {
+  border: 0.8px solid crimson;
+}
 
 .buttonItem {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-}
 .endMap {
   margin-top: 250px;
   font-family: "roboto", sans-serif;
@@ -374,17 +379,17 @@ border: 0.8px solid crimson;}
   margin-top: 5px;
 }
 
-.mailto{
+.mailto {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.downlinks{
+.downlinks {
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.downlinks1{
+.downlinks1 {
   text-decoration: none;
   color: #000000;
 }
