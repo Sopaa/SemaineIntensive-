@@ -38,7 +38,6 @@ body {
   display: inline-block;
   padding: 15px 0%;
   position: relative;
-
 }
 
 .menuItem:after {
@@ -48,7 +47,6 @@ body {
   display: block;
   height: 1px;
   left: 50%;
-
   position: absolute;
   background: white;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
@@ -193,7 +191,7 @@ body {
   border-radius: 3px;
 }
 
-.buttonBorder{
+.buttonBorder {
   text-align: center;
   border: 0.8px solid #979797;
   border-radius: 10px;
@@ -203,7 +201,7 @@ body {
   margin-bottom: 100px;
 }
 
-.button{
+.button {
   font-family: "roboto", sans-serif;
   color: #FFFFFF;
   font-size: 36px;
@@ -212,30 +210,31 @@ body {
   text-transform: uppercase;
 }
 
-.participation{
+.participation {
   background-image: url(../img/mapParis.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.spacerParticipation{
+.spacerParticipation {
   margin-left: 40%;
   margin-right: 40%;
   height: 1px;
   margin-top: 80px;
-  margin-bottom: 350px;;
+  margin-bottom: 350px;
+  ;
   background-color: #fff;
 }
-.participationTitle{
+
+.participationTitle {
   font-family: "roboto", sans-serif;
   font-size: 64px;
-  color: #FFFFFF;
   text-align: center;
   padding-top: 60px;
 }
 
-.buttonBorder1{
+.buttonBorder1 {
   text-align: center;
   border: 0.8px solid #979797;
   border-radius: 10px;
@@ -244,7 +243,12 @@ body {
   margin-right: 41%;
 }
 
-.endMap{
+.buttonItem {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.endMap {
   margin-top: 300px;
   font-family: "roboto", sans-serif;
   text-align: center;
