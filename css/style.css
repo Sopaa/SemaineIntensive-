@@ -200,6 +200,8 @@ body {
   margin-right: 41%;
   margin-bottom: 100px;
 }
+.buttonBorder:hover{
+border: 0.8px solid crimson;}
 
 .button {
   font-family: "roboto", sans-serif;
@@ -242,12 +244,15 @@ body {
   margin-left: 41%;
   margin-right: 41%;
 }
+.buttonBorder1:hover{
+border: 0.8px solid crimson;}
 
 .buttonItem {
   text-decoration: none;
   color: #FFFFFF;
 }
 
+}
 .endMap {
   margin-top: 250px;
   font-family: "roboto", sans-serif;
